@@ -1,7 +1,6 @@
 from django.contrib import admin
-from .models import * #importe all
+from .models import Jugador, Equipo, Estadio #importe all
 
-admin.site.register(Curso)
 admin.site.register(Jugador)
 admin.site.register(Equipo)
 admin.site.register(Estadio)
